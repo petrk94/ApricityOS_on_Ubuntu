@@ -18,32 +18,19 @@ sudo apt-get -o Acquire::ForceIPv4=true update && sudo apt-get install arc-theme
 wget -4 -http://download.opensuse.org/repositories/home:Horst3180/xUbuntu_16.04/Release.key
 sudo apt-key add - < Release.key
 
-# Icon Sets based in ApricityOS (numix-circle project, vimix-icon-themes, paper icon-theme/gtk-theme/cursor-theme)
+# Icon Sets based in ApricityOS (numix-circle project, paper icon-theme/gtk-theme/cursor-theme)
 
 #numix-circle project
 sudo add-apt-repository ppa:numix/ppa
 sudo apt-get update
 sudo apt-get install numix-icon-theme-circle
 
-# vimix-icon-themes
-# To avoid double time waste, comment out the IPvX which you want not to use
-sudo add-apt-repository ppa:noobslab/themes
-
-sudo apt-get -o Acquire::ForceIPv4=true update #IPv4
-sudo apt-get update #IPv6
-
-sudo apt-get install vimix-flat-themes
 
 # Paper Theme
 sudo add-apt-repository ppa:snwh/pulp
 sudo apt-get update
 sudo apt-get install paper-icon-theme paper-gtk-theme paper-cursor-theme
 
-
-# Pacifica Icon Set
-sudo add-apt-repository ppa:fsvh/pacifica-icon-theme
-sudo apt-get update
-sudo apt-get install pacifica-icon-theme
 
 
 # AppricityOS Backgrounds on Git
