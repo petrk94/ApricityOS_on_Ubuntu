@@ -1,0 +1,6 @@
+{
+  "name": "Apricityos on ubuntu",
+  "tagline": "ApricityOS design on Ubuntu Gnome3 instead Arch Linux",
+  "body": "Welcome to the ApricityOS_on_Ubuntu wiki!\r\n\r\n# ApricityOS_on_Ubuntu\r\nApricityOS design on Ubuntu Gnome3 instead Arch Linux\r\n\r\nI made this project because I liked the design of ApricityOS, but for normal Linux User is the Arch system not easy to use. And because Ubuntu with Gnome3 has a good and easy usability, I have searched all packages which are necessary to made a \"ApricityOS Design\"-clone.\r\n\r\nThe Shell script which collect the repositories and install the packages is nearly done and I will upload it as soon as possible.\r\n\r\n\r\nTo use this Shell script, it is necessary that you have already installed the following \r\n\r\n* Ubuntu 16.04 Xenial Xerus\r\n* Gnome3 - Tested with Version 3.18.5-0\r\n\r\nYou can check your Gnome Version when you type in the terminal the command: `dpkg -l gnome-shell`",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}
