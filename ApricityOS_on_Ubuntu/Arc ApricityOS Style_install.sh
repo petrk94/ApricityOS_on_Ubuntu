@@ -45,13 +45,13 @@ sudo apt-get install paper-icon-theme paper-gtk-theme paper-cursor-theme
 sudo apt-get install unity-tweak-tool
 
 
-
+#### Still in development
 # Get the installation package from developer website
 # https://micheleg.github.io/dash-to-dock/releases.html
-wget https://extensions.gnome.org/review/download/5670.shell-extension.zip
+#wget https://extensions.gnome.org/review/download/5670.shell-extension.zip
 
 # Unzip and move to folder gnome-shell/extensions/
-unzip 5670.shell-extension.zip -d ~/.local/share/gnome-shell/extensions/dash-to-dock@micxgx.gmail.com/
+#unzip 5670.shell-extension.zip -d ~/.local/share/gnome-shell/extensions/dash-to-dock@micxgx.gmail.com/
 
 # Restart the Gnome-shell
 # Manually Command over GUI press [ALT] + [F2] and enter "r" to restart the gnome-shell
