@@ -5,6 +5,11 @@ http://www.ubuntumaniac.com/2016/05/paper-icons-13-theme-is-available-ppa.html
 http://vinceliuice.deviantart.com/art/Vimix-icon-themes-530683384
 http://www.noobslab.com/2014/01/vimix-themes-for-ubuntulinux-mintother.html
 https://numixproject.org/
+http://www.howtogeek.com/202708/how-to-convert-the-unity-launcher-into-a-dock-style-launcher/
+http://www.omgubuntu.co.uk/2016/06/install-latest-arc-gtk-theme-ubuntu-16-04
+http://www.omgubuntu.co.uk/2015/06/arc-gtk-theme
+
+
 
 For issues
 http://askubuntu.com/questions/760517/arc-theme-on-ubuntu-16-04-looks-weird
