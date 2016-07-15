@@ -1,0 +1,10 @@
+https://github.com/horst3180/arc-theme
+http://www.ubuntufree.com/download-arc-theme-a-beautiful-gtk-theme-for-ubuntu/
+https://github.com/sagarpanchal/arc-theme-ubuntu
+http://www.ubuntumaniac.com/2016/05/paper-icons-13-theme-is-available-ppa.html
+http://vinceliuice.deviantart.com/art/Vimix-icon-themes-530683384
+http://www.noobslab.com/2014/01/vimix-themes-for-ubuntulinux-mintother.html
+https://numixproject.org/
+
+For issues
+http://askubuntu.com/questions/760517/arc-theme-on-ubuntu-16-04-looks-weird
