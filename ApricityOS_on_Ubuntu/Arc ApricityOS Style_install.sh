@@ -6,7 +6,7 @@
 sudo sh -c "echo 'deb http://download.opensuse.org/repositories/home:/Horst3180/xUbuntu_16.04/ /' >> /etc/apt/sources.list.d/arc-theme.list"
 
 
-# Please choose here whether you preferto to force the IPv4 usage or IPv6
+# Please choose here whether you prefer to force the IPv4 usage or IPv6
 # Comment the line which you want to disable for usage
 #IPv4
 sudo apt-get -o Acquire::ForceIPv4=true update && sudo apt-get install arc-theme
