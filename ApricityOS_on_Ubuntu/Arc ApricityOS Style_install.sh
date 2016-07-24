@@ -41,8 +41,8 @@ sudo apt-get install paper-icon-theme paper-gtk-theme paper-cursor-theme
 
 
 # Install Gnome or Unity-tweak-tool
-#sudo apt-get install gnome-tweak-tool
-sudo apt-get install unity-tweak-tool
+sudo apt-get install gnome-tweak-tool
+#sudo apt-get install unity-tweak-tool
 
 
 #### Still in development
