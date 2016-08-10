@@ -40,9 +40,18 @@ sudo apt-get install paper-icon-theme paper-gtk-theme paper-cursor-theme
 #rm -r Apricity-wallpapers
 
 
-# Install Gnome or Unity-tweak-tool
-sudo apt-get install gnome-tweak-tool
-#sudo apt-get install unity-tweak-tool
+# Ubuntu Gnome installation
+# check whether the sessiontype is Gnome
+env | grep sessiontype=Gnome
+echo $?
+if [ $? -eq 0]
+  then
+    # Install Gnome or Unity-tweak-tool
+    sudo apt-get install gnome-tweak-tool
+    #sudo apt-get install unity-tweak-tool
+  else
+    sudo apt-get install ubuntu-gnome-desktop
+fi
 
 
 #### Still in development
@@ -57,5 +66,3 @@ sudo apt-get install gnome-tweak-tool
 # Manually Command over GUI press [ALT] + [F2] and enter "r" to restart the gnome-shell
 # https://micheleg.github.io/dash-to-dock/download.html
 gnome-shell --replace
-
-
