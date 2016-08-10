@@ -35,21 +35,45 @@ sudo apt-get install paper-icon-theme paper-gtk-theme paper-cursor-theme
 
 # AppricityOS Backgrounds on Git
 ## Currently not working
-#git clone https://github.com/Apricity-OS/apricity-wallpapers.git Apricity-wallpaper
-#sudo cp -r Apricity /usr/share/backgrounds
-#rm -r Apricity-wallpapers
+#git clone https://github.com/Apricity-OS/apricity-wallpapers.git Apricity
+echo ------------------------------------------
+echo
+echo ATTENTION!
+echo
+echo Because language localization issues, it is not possible
+echo to auto choose the right photo folder
+echo Please type in your Photo Folder name in your Ubuntu language
+echo
+echo Please type in your Photo folder name:
+read photo
+echo The Apricity Wallpaper will be saved in:
+echo
+echo $HOME/$photo
+
+# Move the Wallpaper into the photo folder
+mv  Apricity/* /$HOME/$photo
+# Remove the empty 'Apricity' folder
+rm -r Apricity
+echo
+echo Wallpaper succefully moved to $HOME/$photo
+echo
 
 
 # Ubuntu Gnome installation
 # check whether the sessiontype is Gnome
 env | grep sessiontype=Gnome
-echo $?
-if [ $? -eq 0]
+
+if [ $? -eq 0 ]
   then
     # Install Gnome or Unity-tweak-tool
     sudo apt-get install gnome-tweak-tool
     #sudo apt-get install unity-tweak-tool
   else
+    echo It seems that ubuntu-gnome-desktop is not installed
+    echo it will be installed now
+    read -p "Press Button to continue..."
+    echo
+    # Install ubuntu-gnome-desktop
     sudo apt-get install ubuntu-gnome-desktop
 fi
 
