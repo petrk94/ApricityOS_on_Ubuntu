@@ -15,7 +15,7 @@ sudo apt-get -o Acquire::ForceIPv4=true update && sudo apt-get install arc-theme
 #sudo apt-get update && sudo apt-get install arc-theme
 
 # importing the repository key
-wget -4 -http://download.opensuse.org/repositories/home:Horst3180/xUbuntu_16.04/Release.key
+wget -4 http://download.opensuse.org/repositories/home:Horst3180/xUbuntu_16.04/Release.key
 sudo apt-key add - < Release.key
 
 # Icon Sets based in ApricityOS (numix-circle project, paper icon-theme/gtk-theme/cursor-theme)
