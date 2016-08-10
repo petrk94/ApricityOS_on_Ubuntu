@@ -32,10 +32,26 @@ sudo apt-get update
 sudo apt-get install paper-icon-theme paper-gtk-theme paper-cursor-theme
 
 
+# Install Git if not installed
+# Git is necessary for the next step to get the AppricityOS Wallpapers from Git
+#Check Whether Git is already installed
+which git
+if [ $? -eq 1 ]
+  then
+    # Install Git
+    sudo apt-get install git
+  else
+	echo
+    echo It seems that Git is already installed
+	echo
+fi
 
 # AppricityOS Backgrounds on Git
 ## Currently not working
-#git clone https://github.com/Apricity-OS/apricity-wallpapers.git Apricity
+echo Depending by your Internet connection it will take some time to download
+echo wallpapers, download size ~ 200 MB
+echo 
+git clone https://github.com/Apricity-OS/apricity-wallpapers.git Apricity
 echo ------------------------------------------
 echo
 echo ATTENTION!
@@ -52,8 +68,9 @@ echo $HOME/$photo
 
 # Move the Wallpaper into the photo folder
 mv  Apricity/* /$HOME/$photo
-# Remove the empty 'Apricity' folder
-rm -r Apricity
+# Remove the empty 'Apricity' folder, Force because a write protected
+# .git file exist now, but is not necessary for usage
+rm -r -f Apricity
 echo
 echo Wallpaper succefully moved to $HOME/$photo
 echo
