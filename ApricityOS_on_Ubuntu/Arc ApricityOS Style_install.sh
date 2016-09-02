@@ -94,6 +94,14 @@ if [ $? -eq 0 ]
     sudo apt-get install ubuntu-gnome-desktop
 fi
 
+echo
+echo Download Dash to dock Gnome Shell extension
+echo
+echo Because "Dash to Dock" shell installation via Script
+echo is until now in development, go on 
+echo https://extensions.gnome.org/extension/307/dash-to-dock/
+echo
+echo to install "Dash to Dock" and switch the slider to "ON"
 
 #### Still in development
 # Get the installation package from developer website
